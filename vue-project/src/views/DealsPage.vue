@@ -1,11 +1,13 @@
 <script setup lang="ts">
-// let ks = 543;
+  import TheFilter from '../components/TheFilter.vue';
 </script>
 
 <template>
-  <div class="deals">
-    <h1>This is a page with deals</h1>
-  </div>
+  <main class="deals">
+    <TheFilter></TheFilter>
+
+    <h1>Сделки</h1>
+  </main>
 </template>
 
 <style></style>
