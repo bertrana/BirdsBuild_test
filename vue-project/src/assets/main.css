@@ -12,12 +12,18 @@ body {
 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
-  
+
   width: 1px;
   height: 1px;
-  
+
   position: absolute;
 
   overflow: hidden;
   white-space: nowrap;
+}
+
+.container--filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

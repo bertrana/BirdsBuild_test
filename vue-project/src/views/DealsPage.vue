@@ -1,13 +1,7 @@
-<script setup lang="ts">
-  import TheFilter from '../components/TheFilter.vue';
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <main class="deals">
-    <TheFilter></TheFilter>
-
-    <h1>Сделки</h1>
-  </main>
+  <h1>Сделки</h1>
 </template>
 
 <style></style>

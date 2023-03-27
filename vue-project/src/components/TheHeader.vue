@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterLink } from 'vue-router'
 
 interface HeaderLink {
   linkClass: string
@@ -34,14 +34,13 @@ const headerLinks: HeaderLink[] = [
           v-for="(link, i) in headerLinks"
           :key="i"
           :to="link.path"
-          :class="link.linkClass">
+          :class="link.linkClass"
+        >
           {{ link.title }}
         </RouterLink>
       </nav>
     </div>
   </header>
-
-  <RouterView />
 </template>
 
 <style scoped>
