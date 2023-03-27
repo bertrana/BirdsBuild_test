@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  // let ks = 543;
+// let ks = 543;
 </script>
 
 <template>
@@ -8,6 +8,4 @@
   </div>
 </template>
 
-<style>
-
-</style>
+<style></style>
