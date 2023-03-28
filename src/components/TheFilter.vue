@@ -1,23 +1,23 @@
 <script setup lang="ts">
 interface FilterTypes {
-  title: string
-  id: string
+  title: string;
+  id: string;
 }
 
 const filters: FilterTypes[] = [
   {
-    title: 'Все типы',
-    id: 'all'
+    title: "Все типы",
+    id: "all",
   },
   {
-    title: 'Прямые продажи',
-    id: 'direct-sales'
+    title: "Прямые продажи",
+    id: "direct-sales",
   },
   {
-    title: 'Аукцион',
-    id: 'auction'
-  }
-]
+    title: "Аукцион",
+    id: "auction",
+  },
+];
 </script>
 
 <template>

@@ -22,7 +22,7 @@
 }
 
 .search button {
-  content: '';
+  content: "";
 
   position: absolute;
   top: 4px;
@@ -32,7 +32,7 @@
   height: 40px;
 
   background-color: #2d3b87;
-  background-image: url('./icons/IconSearch.svg');
+  background-image: url("./icons/IconSearch.svg");
   background-position: center;
   background-repeat: no-repeat;
   border: none;

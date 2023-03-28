@@ -1,29 +1,29 @@
 <script setup lang="ts">
-import { RouterLink } from 'vue-router'
+import { RouterLink } from "vue-router";
 
 interface HeaderLink {
-  linkClass: string
-  title: string
-  path: string
+  linkClass: string;
+  title: string;
+  path: string;
 }
 
 const headerLinks: HeaderLink[] = [
   {
-    title: 'Favorites',
-    path: '/favorites',
-    linkClass: 'favorites'
+    title: "Favorites",
+    path: "/favorites",
+    linkClass: "favorites",
   },
   {
-    title: 'Stock',
-    path: '/',
-    linkClass: 'stock'
+    title: "Stock",
+    path: "/",
+    linkClass: "stock",
   },
   {
-    title: 'Deals',
-    path: '/deals',
-    linkClass: 'deals'
-  }
-]
+    title: "Deals",
+    path: "/deals",
+    linkClass: "deals",
+  },
+];
 </script>
 
 <template>
@@ -51,7 +51,7 @@ header {
 }
 
 header::before {
-  content: '';
+  content: "";
 
   position: absolute;
 
@@ -97,7 +97,7 @@ nav a:focus {
 }
 
 nav a::before {
-  content: '';
+  content: "";
 
   position: absolute;
 
@@ -111,14 +111,14 @@ nav a::before {
 }
 
 nav a.stock::before {
-  background-image: url('./icons/IconStock.svg');
+  background-image: url("./icons/IconStock.svg");
 }
 
 nav a.favorites::before {
-  background-image: url('./icons/IconFavorites.svg');
+  background-image: url("./icons/IconFavorites.svg");
 }
 
 nav a.deals::before {
-  background-image: url('./icons/IconDeals.svg');
+  background-image: url("./icons/IconDeals.svg");
 }
 </style>
